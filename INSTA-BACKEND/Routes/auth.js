@@ -4,7 +4,7 @@ const mongoose=require('mongoose')
 const UserCollection=require('../Models/Schema')
 const bcrypt=require('bcrypt')
 const jwt=require('jsonwebtoken')
-const JWT_SECRET_KEY="wicw09e2fheofhq3hg3"//random
+const JWT_SECRET_KEY=""//random
 const RequireLogin=require('../Middleware/RequireLogin')
 //SIGNUP ROUTE
 router.post('/signup',(req,res)=>{
