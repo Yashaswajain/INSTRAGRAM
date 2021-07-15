@@ -3,7 +3,7 @@ const app=express()
 const mongoose=require('mongoose')
 const cors=require('cors')
 const PORT=process.env.PORT||8000
-const mongoURL="mongodb+srv://YASHASWA:csT7rmzdH0Auo5iK@cluster0.fpttl.mongodb.net/INSTADB?retryWrites=true&w=majority"
+const mongoURL="link"
 const authRoute=require('./Routes/auth')
 const postRoute=require('./Routes/post')
 const userRoute=require('./Routes/user')
