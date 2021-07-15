@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:wght@300&display=swap');
+/*font-family: 'Grand Hotel', cursive;*/
+a{
+    text-decoration: none;
+    color:black;
+}
+.header{
+display:flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-evenly;
+position:fixed;
+top:0px;
+left:0px;
+z-index: 100;
+background-color: white;
+width:100%;
+height:50px;
+box-shadow: 2px 2px 5px rgb(219, 215, 215);
+}
+.left_header .Home{
+    font-family: 'Grand Hotel', cursive;
+    font-size: 2rem;
+    cursor:pointer;
+}
+.center_header .header_input{
+    background-color:rgba(138, 138, 138, 0.2);
+    border:.5px solid rgb(219, 215, 215,.3) ;
+    border-radius: 4px;
+    outline:none;
+    height:20px;
+    text-align: center;
+    transition:all .5s;
+}
+.right_header{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    
+}
+.right_header .right_ele{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin:auto 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    align-items: center;
+    height:50px;
+    width:90px;
+    transition:all .5s;
+}
+.right_header .right_ele:hover{
+    background-color:rgb(219, 215, 215,.2)
+}
+
+

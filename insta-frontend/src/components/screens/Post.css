@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:wght@300&display=swap');
+.postCard{
+    width:100%;
+    background-color:white;
+    border-radius: 3px;
+    border: 1px solid rgb(219, 215, 215);
+    margin-bottom: 20px;
+    height:max-content;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.upperPost{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+}
+.upperPost .profileSrc{
+    margin:0px 20px;
+}
+.postImg{
+    width: 100%;
+}
+.lowerPost{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+.lowerPost>div{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    margin:0px 0px;
+}
+.lowerPost .likesDiv .likeIcon{
+    margin:0px 8px;
+    font-size:2rem;
+    cursor: pointer;
+}
+.lowerPost .likesDiv .unlikeIcon{
+    margin:0px 8px;
+    font-size:2rem;
+    cursor: pointer;
+}
+.lowerPost .captionDiv>h4{
+    margin:0px 10px;
+}
+.lowerPost .commentDiv input{
+    outline:none;
+    height:30px;
+    border:none;
+    margin:5px 10px;
+    width:90%;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.lowerPost .commentDiv button{
+    border:none;
+    background-color:white;
+    color:rgb(64, 156, 241);
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+}

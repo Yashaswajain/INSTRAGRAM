@@ -1,0 +1,33 @@
+MIDDLEWARE EXAMPLE
+->const middleware=(req,res,next)=>{
+....code
+next():next function to call next middleware if present otherwise call routing->if next() is not invoked then 
+       request will be stuck
+}
+app.use(middleware)->used for all routing requests
+->if you want to use for specific routes/requests:
+     app.get('/',middleware,(req,res)=>{
+
+     })
+
+ROUTING
+->we are using express.Route() so that the routing does not become clumsy
+->signup route
+->sigin route
+->protected route
+->createpost route
+->get all posts route
+->get my posts route
+
+HASHING THE PASSWORD STORED
+->using bcrypt.js
+
+JWT AUTHENTICATION
+->using jsonwebtoken
+->Authorizaing using token in RequireToken
+
+Posts on INSTA
+->Create a postSchema
+->Create a route for post now
+->Create a route for getting all posts now
+->Create a route for getting my post

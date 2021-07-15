@@ -1,0 +1,17 @@
+.story{
+    border: 1px solid rgb(219, 215, 215);
+    border-radius: 50%;
+    padding:2px;
+    margin:0px 5px;
+    cursor:pointer;
+}
+.story .userStoryProfile{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    opacity:.6;
+    transition:all .5s;
+}
+.story .userStoryProfile:hover{
+    opacity:1;
+}

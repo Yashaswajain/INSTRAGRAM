@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+.profileContainer{
+    max-width: 800px;
+    margin: 100px auto;
+}
+.upperProfile{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:space-around;
+    font-family: 'Montserrat Alternates', sans-serif;
+    border-bottom: 1px solid rgb(219, 215, 215);
+}
+.upperProfile .profilePicture{
+    border:2px solid rgb(199, 196, 196);
+    border-radius:50%;
+    padding:3px;
+}
+.upperProfile .profilePhoto{
+    height:140px;
+    width:140px;
+    
+}
+.upperProfile .upperRight{
+    display:flex;
+    flex-direction:column;
+    padding-bottom: 30px;
+}
+.upperProfile .upperRight h1{
+    font-weight: 50;
+    opacity: .4;
+    font-size: 3rem;
+}
+.upperProfile .upperRight .stats{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:flex-start;
+    
+}
+.stats h5{
+    margin:0px 0px;
+    font-size: 1rem;
+    margin-right: 10px;
+}
+.upperProfile .upperRight .name{
+font-size: 1.5rem;
+margin:10px 0px;
+}
+
+.lowerProfile{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.lowerProfile>img{
+    height:250px;
+    width:31%;
+    margin:10px 0px;
+    opacity: .6;
+    cursor:pointer;
+    transition:all .5s;
+}
+.lowerProfile>img:hover{
+    opacity: 1;
+}
